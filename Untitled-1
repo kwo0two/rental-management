@@ -1,0 +1,43 @@
+import datetime
+import pandas as pd
+import matplotlib.pyplot as plt
+from openpyxl import Workbook
+from openpyxl.styles import Font, Alignment, Border, Side
+
+class RentalManagement:
+    def __init__(self):
+        self.tenants = {}
+
+    def add_tenant(self, name, start_date, monthly_rent):
+        # 임대인 정보 추가
+        pass
+
+    def add_payment(self, name, payment_date, amount):
+        # 임대료 납부 기록 추가
+        pass
+
+    def calculate_balance(self, name):
+        # 현재까지의 잔액 계산
+        pass
+
+    def generate_report(self, name):
+        # 보고서 생성 (콘솔 출력, 엑셀 파일 생성, 그래프 생성)
+        pass
+
+    def save_tenant_data(self, name):
+        # 임대인 데이터 저장
+        pass
+
+    def load_tenant_data(self, name):
+        # 임대인 데이터 불러오기
+        pass
+
+def main():
+    rental_manager = RentalManagement()
+    
+    while True:
+        # 사용자 인터페이스 및 메뉴 구현
+        pass
+
+if __name__ == "__main__":
+    main()

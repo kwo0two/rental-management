@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDYooJCh9-HCd4JC_ZEEqMn4LWkQkGbcA0",
+  authDomain: "rental-management-system-64682.firebaseapp.com",
+  projectId: "rental-management-system-64682",
+  storageBucket: "rental-management-system-64682.firebasestorage.app",
+  messagingSenderId: "810771729118",
+  appId: "1:810771729118:web:5677485ab1de71fbcd904f"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);

@@ -1,0 +1,59 @@
+주요 진행사항 메모
+
+1. Firebase 웹 앱 전환 논의
+2. 무료 호스팅 옵션 검토
+3. 다음 단계:
+   - Firebase 프로젝트 설정
+   - React/Next.js 프론트엔드 구현
+   - 데이터베이스 구조 설계
+
+
+2024-11-04
+
+3. GitHub 저장소 설정:
+
+# git 초기화 (아직 하지 않았다면)
+git init
+
+# 파일 추가
+git add .
+
+# 커밋
+git commit -m "Initial commit"
+
+# GitHub 저장소와 연결
+git remote add origin https://github.com/kwo0two/rental-management.git
+
+# 푸시
+git push -u origin main
+
+
+위에 대한 이슈
+
+Git이 설치되어 있지 않아서 발생하는 에러입니다. Git을 설치해야 합니다:
+1. Git 설치:
+   - Git 공식 웹사이트에서 Windows용 Git 설치 프로그램을 다운로드
+   - 다운로드한 설치 프로그램 실행
+   - 기본 설정으로 설치 진행
+2. 설치 완료 후 PowerShell이나 명령 프롬프트를 재시작
+3. Git이 제대로 설치되었는지 확인:
+git --version
+
+4. 그 다음 Git 초기 설정:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+5. 이제 Git 명령어를 실행할 수 있습니다:
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/kwo0two/rental-management.git
+git push -u origin main
+
+
+-- 11/06 --
+
+Firebase Authentication 설정
+Firestore 규칙 설정
+각 페이지 컴포넌트 구현
+API 유틸리티 함수 구현
