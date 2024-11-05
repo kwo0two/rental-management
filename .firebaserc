@@ -1,8 +1,14 @@
 {
   "projects": {
-    "y": "rental-management-system-64682",
-    "default": "rental-management-system-64682"
+    "default": "your-project-id"
   },
-  "targets": {},
-  "etags": {}
+  "targets": {
+    "your-project-id": {
+      "hosting": {
+        "rental-management": [
+          "your-hosting-site-id"
+        ]
+      }
+    }
+  }
 }
